@@ -1,0 +1,353 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Assumed_Circumference_for_Wind_Turbines_3e7dffad_2d4d_470a_92fa_4c87e16022e9": {
+        "enabled": true,
+        "groups": []
+      },
+      "Distances_a6f32049_ebf4_45f2_9e25_8547a1fde717": {
+        "enabled": true,
+        "groups": []
+      },
+      "FinalElev3d_7809cefe_1f4b_4c63_8eba_804e62261b2a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Final_1_6290cb4c_d27c_4103_817e_42a37b0520fd": {
+        "enabled": true,
+        "groups": []
+      },
+      "Final_Contour_250432d9_578b_4047_afe2_5da2ccf4b607": {
+        "enabled": true,
+        "groups": []
+      },
+      "Final_Hillshade_0a3b4713_bed9_44ec_8765_5b728d6d97cd": {
+        "enabled": true,
+        "groups": []
+      },
+      "Lines_c8f962e9_35bc_4914_8177_46516beb0252": {
+        "enabled": true,
+        "groups": []
+      },
+      "Lines_d457c210_a047_4af8_b0b3_3f57908a6f66": {
+        "enabled": true,
+        "groups": []
+      },
+      "Mt_bc35a29e_9b81_45aa_812d_720fedaff397": {
+        "enabled": true,
+        "groups": []
+      },
+      "Topo_Based_KMZ_Contours_4a5aea00_d053_470e_a7de_d976198096b9": {
+        "enabled": true,
+        "groups": []
+      },
+      "Topo_Contour_Tuy_be433101_b921_48a4_989c_a08dbdb2c4fe": {
+        "enabled": true,
+        "groups": []
+      },
+      "Topo_Hillshade_24483263_8ff8_48d1_bd69_4d1992af7ca0": {
+        "enabled": true,
+        "groups": []
+      },
+      "Topo_Tuy_Kmz_8f8c87dc_b34c_4789_825c_4d56cd6ed893": {
+        "enabled": true,
+        "groups": []
+      },
+      "Windspeed_Data_16f72b63_6d36_4a4a_951a_b5d7f8fb048f": {
+        "enabled": true,
+        "groups": []
+      },
+      "asdas_d09634bf_b736_4ce7_83c5_28ef06b71a1a": {
+        "enabled": true,
+        "groups": []
+      },
+      "dem3_04bb780c_947c_4212_8784_0092ec752cfa": {
+        "enabled": true,
+        "groups": []
+      },
+      "dem_cece68a9_948c_47ce_9b3e_637a47606c0c": {
+        "enabled": true,
+        "groups": []
+      },
+      "demjj_2e3e6cce_6deb_4e41_8e55_8f705f91e2c3": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:d2d2bc47": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "demjj_2e3e6cce_6deb_4e41_8e55_8f705f91e2c3",
+      "name": "demjj",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "asdas_d09634bf_b736_4ce7_83c5_28ef06b71a1a",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b448ead5",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "b448ead5",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Assumed_Circumference_for_Wind_Turbines_3e7dffad_2d4d_470a_92fa_4c87e16022e9",
+      "name": "Assumed Circumference for Wind Turbines copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Lines_c8f962e9_35bc_4914_8177_46516beb0252",
+      "name": "Property/Boundary Line",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Final_Contour_250432d9_578b_4047_afe2_5da2ccf4b607",
+      "name": "Contours",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "FinalElev3d_7809cefe_1f4b_4c63_8eba_804e62261b2a",
+      "name": "FinalElev3d",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "asdas_d09634bf_b736_4ce7_83c5_28ef06b71a1a",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "3f0a8ccc",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "3f0a8ccc",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "asdas_d09634bf_b736_4ce7_83c5_28ef06b71a1a",
+      "name": "asdas",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "dem3_04bb780c_947c_4212_8784_0092ec752cfa",
+      "name": "dem3.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Assumed_Circumference_for_Wind_Turbines_3e7dffad_2d4d_470a_92fa_4c87e16022e9",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "9d707e9d",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "9d707e9d",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "dem_cece68a9_948c_47ce_9b3e_637a47606c0c",
+      "name": "dem.tif",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Distances_a6f32049_ebf4_45f2_9e25_8547a1fde717",
+      "name": "Distances between Circumferences",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Final_1_6290cb4c_d27c_4103_817e_42a37b0520fd",
+      "name": "Elevation",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Final_Hillshade_0a3b4713_bed9_44ec_8765_5b728d6d97cd",
+      "name": "Hillshade_",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Windspeed_Data_16f72b63_6d36_4a4a_951a_b5d7f8fb048f",
+      "name": "Wind Pressure/Speed Data",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Mt_bc35a29e_9b81_45aa_812d_720fedaff397",
+      "name": "Contours",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Topo_Based_KMZ_Contours_4a5aea00_d053_470e_a7de_d976198096b9",
+      "name": "Topo Based KMZ Contours",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Topo_Contour_Tuy_be433101_b921_48a4_989c_a08dbdb2c4fe",
+      "name": "Topo_Contour Tuy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Lines_d457c210_a047_4af8_b0b3_3f57908a6f66",
+      "name": "Lines copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Topo_Hillshade_24483263_8ff8_48d1_bd69_4d1992af7ca0",
+      "name": "Topo_Hillshade",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Topo_Tuy_Kmz_8f8c87dc_b34c_4789_825c_4d56cd6ed893",
+      "name": "Topo_Tuy Kmz",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:d2d2bc47",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "D:/Dongman Files/4TH YEAR/2ND Sem/Reaearch GIS/Mt. Batulao_QGIS Project\\Lot2.html",
+  "Template": "3DViewer.html",
+  "Title": "Final_Mt. Batulao",
+  "Version": 20701
+}
